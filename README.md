@@ -10,6 +10,10 @@ gem install pony
 
 Modify config.example.rb and rename to config.rb
 
+EMAIL fields are fields use in the Pony gem (TO, FROM, SENDER, CC, Attachment Prefix, etc)
+
+Username and password fields are for SkuVault
+
 Modify SKU.example.txt and rename to SKU.txt
 
 Run skuvault.rb `ruby skuvault.rb`
