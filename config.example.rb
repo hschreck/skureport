@@ -5,6 +5,7 @@ PASSWORD = "SKUVAULTPASSWORD"
 FILENAME = "DailyInventory"
 #email settings
 EMAIL_TO = 'SendTo@YourCompany.com'
+EMAIL_CC = ['CC1@YourCompany.com', 'CC2@YourCompany.com']
 EMAIL_FROM = 'SendFrom@YourCompany.com'
 EMAIL_SENDER = "SKU Report"
 EMAIL_SUBJECT = "[SKU Report] #{Date.today.to_s}"

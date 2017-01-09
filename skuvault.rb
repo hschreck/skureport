@@ -70,6 +70,7 @@ end
 time = Time.now
 Pony.mail({
   :to => EMAIL_TO,
+  :cc => EMAIL_CC,
   :from => EMAIL_FROM,
   :sender => EMAIL_SENDER,
   :subject => EMAIL_SUBJECT,
